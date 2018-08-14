@@ -1,12 +1,18 @@
 {
-  "name": "drupal-pattern-lab/unified-twig-extensions",
+  "name": "dennisdigital/unified-twig-extensions",
   "description": "Share Pattern Lab's custom Twig extensions with Drupal 8.",
   "type": "drupal-module",
   "support": {
-    "source": "https://github.com/drupal-pattern-lab/unified-twig-extensions.git"
+    "source": "https://github.com/dennisdigital/unified-twig-extensions.git"
   },
-  "authors": [{
-    "name": "Salem Ghoweri",
-    "role": "Contributor"
-  }]
+  "authors": [
+    {
+      "name": "Salem Ghoweri",
+      "role": "Contributor"
+    },
+    {
+      "name": "Cristina Llamas",
+      "role": "Contributor"
+    }
+  ]
 }
