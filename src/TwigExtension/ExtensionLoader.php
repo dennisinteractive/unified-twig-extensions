@@ -48,7 +48,7 @@ class ExtensionLoader {
     $themeLocation = drupal_get_path('theme', $theme);
     $themePath = DRUPAL_ROOT . '/' . $themeLocation . '/';
 
-    $extensionPaths = glob($themePath . '*/*/_twig-components/');
+    $extensionPaths = glob($themePath . '**/*/_twig-components/');
 
     foreach ($extensionPaths as $extensionPath) {
       $fullPath = $extensionPath;
